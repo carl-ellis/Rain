@@ -1,0 +1,7 @@
+This is a very rough around the edges prototype, but a fun problem.
+
+Using the weak plasmoid library I made a while back, I created a heightmap and then had agents find their way to the lower parts. They pick the steepest path most of the time, and leave blue trails where they have been, essentially simulating water, if water was made of discrete units. Ends up flowing from one direction, where ever the agents are concentrated. 
+
+If they hit somewhere they cannot get over, they create a source in an attempt to pour over it.water from sources won't go anyhigher than a source 9after the initial push up, and are more likely to drop bac into the mass of other agents.
+
+I've made this on my netbook so haven't had a change to run any large maps or for any amount of time. 
